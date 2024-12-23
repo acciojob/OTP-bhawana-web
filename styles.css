@@ -6,55 +6,44 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f7f7f7;
+    background-color: #f4f4f4;
 }
 
-/* Container for OTP elements */
 .otp-container {
     text-align: center;
-    background-color: #fff;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Heading and subheading styles */
 #verification_heading {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
 #verification_subtext {
-    font-size: 14px;
-    margin-bottom: 30px;
+    font-size: 16px;
+    margin-bottom: 20px;
     color: #555;
 }
 
-/* Code container layout */
 .code-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 10px;
-    max-width: 350px;
-    margin: 0 auto;
 }
 
-/* Styles for each code input */
 .code {
-    width: 50px;
-    height: 50px;
-    font-size: 24px;
+    width: 40px;
+    height: 40px;
     text-align: center;
+    font-size: 20px;
     border: 2px solid #ccc;
-    border-radius: 8px;
+    border-radius: 5px;
     outline: none;
 }
 
 .code:focus {
-    border-color: #4e8ef7;
-    box-shadow: 0 0 5px rgba(79, 143, 247, 0.5);
-}
-
-.code:disabled {
-    background-color: #f0f0f0;
+    border-color: #4CAF50;
 }
